@@ -9,15 +9,25 @@ Dataset Description:
  - The dataset contains 6,362,620 transactions, each labeled as fraudulent (1) or non-fraudulent (0). The available features are:
 
     . step: Time step of the transaction (hourly simulation).
+   
     . type: Type of transaction (CASH_OUT, PAYMENT, TRANSFER, etc.).
+   
     . amount: Transaction amount.
+   
     . nameOrig: Unique identifier of the sender.
+   
     . oldbalanceOrg: Sender's balance before the transaction.
+   
     . newbalanceOrig: Sender's balance after the transaction.
+   
     . nameDest: Unique identifier of the recipient.
+   
     . oldbalanceDest: Recipient's balance before the transaction.
+   
     . newbalanceDest: Recipient's balance after the transaction.
+   
     . isFraud: Target variable (1 = Fraud, 0 = Legitimate).
+   
     . isFlaggedFraud: Indicates if the transaction was flagged as fraud by the system.
    
 Objective
