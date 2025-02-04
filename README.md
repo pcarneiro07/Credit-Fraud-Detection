@@ -6,7 +6,8 @@ The dataset used in this project is a synthetic dataset provided by Kaggle, desi
 https://www.kaggle.com/datasets/ealaxi/paysim1?resource=download
 
 Dataset Description: 
- - The dataset contains 6,362,620 transactions, each labeled as fraudulent (1) or non-fraudulent (0). The available features are:
+
+   The dataset contains 6,362,620 transactions, each labeled as fraudulent (1) or non-fraudulent (0). The available features are:
 
     .step: Time step of the transaction (hourly simulation).
     .type: Type of transaction (CASH_OUT, PAYMENT, TRANSFER, etc.).
