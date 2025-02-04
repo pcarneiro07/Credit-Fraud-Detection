@@ -21,7 +21,7 @@ Dataset Description:
     .isFraud: Target variable (1 = Fraud, 0 = Legitimate).
     .isFlaggedFraud: Indicates if the transaction was flagged as fraud by the system.
    
-Objective
+Objective:
 
   In this notebook, we will:
   
